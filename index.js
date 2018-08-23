@@ -18,7 +18,7 @@ function updateHTMLContent(movieName) {
   let genre = document.getElementById('genre')
   let filmRating = document.getElementById('filmRating')
   
-  title.innerHTML = movies['Titanic'].title
+  title.innerHTML = currentMovie.title
   director.innerHTML = movies['Titanic'].director
   genre.innerHTML = movies['Titanic'].genre
   filmRating.innerHTML = movies['Titanic'].filmRating
