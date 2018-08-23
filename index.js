@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
    //do something here
    updateHTMLContent('Terminator')
   })
-});
+})
 
 function updateHTMLContent(movieName) {
   let title = document.getElementById('title')
@@ -24,4 +24,5 @@ function updateHTMLContent(movieName) {
   genre.innerHTML = currentMovie.genre
   filmRating.innerHTML = currentMovie.filmRating
   poster.setAttribute('src',currentMovie.poster)
+  
 }
