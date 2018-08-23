@@ -12,7 +12,7 @@ document.addEventListener("DOMContentloaded", (e) => {
   })
 });
 
-function updateHTMLContent() {
+function updateHTMLContent(movieName) {
   let title = document.getElementById('title')
   let director = document.getElementById('director')
   let genre = document.getElementById('genre')
