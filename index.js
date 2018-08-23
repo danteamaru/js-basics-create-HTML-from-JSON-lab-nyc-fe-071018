@@ -11,7 +11,7 @@ document.addEventListener("DOMContentLoaded", (e) => {
    //do something here
    updateHTMLContent('Terminator')
   })
-})
+});
 
 function updateHTMLContent(movieName) {
   let title = document.getElementById('title')
