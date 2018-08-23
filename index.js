@@ -5,7 +5,7 @@ document.addEventListener("DOMContentloaded", (e) => {
   const terminatorButton = document.getElementById('Terminator 2')
   titanicButton.addEventListener('click', (event) => {
    //do something here
-   updateHTMLContent('Titanic');
+   updateHTMLContent('Titanic')
   })
    terminatorButton.addEventListener('click', (event) => {
    //do something here
