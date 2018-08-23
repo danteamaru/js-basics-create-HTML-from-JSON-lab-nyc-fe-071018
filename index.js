@@ -6,7 +6,16 @@ document.addEventListener("DOMContentloaded", (e) => {
   titanicButton.addEventListener('click', (event) => {
    //do something here
   })
-   titanicButton.addEventListener('click', (event) => {
+   terminatorButton.addEventListener('click', (event) => {
    //do something here
-  
+  })
 });
+
+function updateHTMLContent() {
+  let title = document.getElementByID('title')
+  let director = document.getElementByID('director')
+  let genre = document.getElementByID('genre')
+  let filmRating = document.getElementByID('filmRating')
+  
+  title.innerHTML = '<p>Hi</p><p>Hello</p>'
+}
