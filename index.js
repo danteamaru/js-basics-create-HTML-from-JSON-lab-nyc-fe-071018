@@ -24,5 +24,18 @@ function updateHTMLContent(movieName) {
   genre.innerHTML = currentMovie.genre
   filmRating.innerHTML = currentMovie.filmRating
   poster.setAttribute('src',currentMovie.poster)
+  description.innerHTML = currentMovie.description
+  audienceScore.innerHTML = currentMovie.audienceScore
   
+  let castInnerHTML = "<ul>"
+  let reviewInnerHTML = "<div>"
+  
+  for (let castMember of currentMovie.cast) {
+    let role = castMember.role
+    let actor = castMember.actor
+    castInnerHTML += ("<li>" + role + ": " + actor + "</li>")
+  }
+  castInnerHTML  
+    
+  for (let review of )  
 }
