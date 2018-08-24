@@ -37,5 +37,8 @@ function updateHTMLContent(movieName) {
   }
   castInnerHTML  
     
-  for (let review of )  
+  for (let review of currentMovie.reviews) {
+    
+  }
+  
 }
